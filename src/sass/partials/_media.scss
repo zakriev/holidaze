@@ -1,0 +1,66 @@
+@media screen and (max-width: 992px) {
+    .hero {
+        .hero-section-items {
+            h2 {
+                top: 27%;
+            }
+            .logo{
+                position: absolute;
+                top: 18%;
+                height: 10%;
+            }
+        }
+    }
+.contact-form-items {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:70px;
+}
+
+.contactForm {
+    width: 80%;
+}
+.hero form{
+    width: 70% !important;
+}
+
+.welcometxt {
+    display:none;
+}
+
+.details-wrapper {
+    display: grid;
+    grid-template-columns:1fr !important;
+}
+
+//navbar on phone screen 
+
+.navbar-container {
+    font-size: 12px;
+    align-items:center;
+    justify-content:center;
+}
+}
+@media screen and (max-width: 575px){
+    .hero {
+        .hero-section-items {
+            h2 {
+                top: 23%;
+            }
+            .logo{
+                position: absolute;
+                top: 8%;
+                height: 10%;
+            }
+        }
+    }
+
+    .navbar-nav {
+        justify-content: center;
+        .navbar-container{
+            flex-direction: column;
+        }
+    }
+    
+}

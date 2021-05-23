@@ -1,0 +1,80 @@
+
+// button for booking the hotels
+.booking-btn {
+    padding:5px 20px;
+    background-color: #AC05FA;
+    color:white;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 15px;
+
+    &:hover {
+        background-color: 
+        red;
+    }
+}
+
+.btn-primary {
+    background-color: #AC05FA !important;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    
+     &:hover {
+        color: white;
+    }
+}
+
+// Admin dashboard button 
+.admin-log-out {
+    padding:5px 20px;
+    background-color: #AC05FA;
+    color:white;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 15px;
+    max-width: 200px;
+    &:hover {
+        background-color: 
+        red;
+    }
+}
+
+.logout-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+// final book btn
+.book-final {
+    padding:5px 20px;
+    background-color: #AC05FA;
+    color:white;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 15px;
+    max-width: 200px;
+    &:hover {
+        background-color: 
+        red;
+    }
+}
+
+.hotels-grid img{
+    height: 200px;
+}
+
+.card-price{
+    position:absolute;
+    top:275px;
+    right: 150px;
+}
+
+.all-categories{
+  display: flex;
+  flex-direction:column;
+    justify-content: center;
+    align-items:center; 
+    padding:20px;
+    
+}

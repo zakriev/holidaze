@@ -1,0 +1,41 @@
+.contact-form-wrapper {
+display:flex;
+flex-direction: column;
+justify-content: space-evenly;
+margin-bottom: 70px;
+}
+
+.umbrella-section {
+    display: flex;
+    align-items: center;
+
+    & img {
+        height: 200px;
+    }
+
+}
+
+.contact-form-items {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contactForm{
+    
+    background-image: linear-gradient(to right,#FA1653, #AC05FA);
+    border-radius: 20px;
+    width:40%;
+    color:white;
+    padding: 20px;
+    margin-top: 40px;
+    
+}
+
+.contactForm h1 {
+    font-size: 30px;
+    padding: 30px;
+}
+
+
+
